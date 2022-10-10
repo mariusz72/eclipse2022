@@ -1,0 +1,14 @@
+checkboxComment=true
+checkboxFluid=true
+checkboxOverwriteUnknown=true
+eclipse.preferences.version=1
+radioButtonDefault=true
+radioButtonIndent2Spaces=false
+radioButtonIndent4Spaces=true
+radioButtonIndentTab=false
+radioButtonNewline=false
+radioButtonPrivate=false
+radioButtonProtected=false
+radioButtonPublic=true
+radioButtonSpace=false
+textFieldDefaultType=string

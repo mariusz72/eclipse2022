@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.loges.plugin.feature"
+      label="PHPGen"
+      version="1.2.1"
+      provider-name="LOGES">
+
+   <description url="http://loge5.de/index.php/apps/phpGen">
+      PHP Tools (e.g. Getter/Setter Generation)
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright by Rolf Loges - see http://loge5.de
+   </copyright>
+
+   <license url="http://loge5.de/index.php/apps/phpGen">
+      Free to use
+   </license>
+
+   <plugin
+         id="de.loges.plugin.PHPGen"
+         download-size="0"
+         install-size="0"
+         version="1.2.1.201411151258"
+         unpack="false"/>
+
+</feature>

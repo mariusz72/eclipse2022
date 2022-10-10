@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.dubture.twig.feature"
+      label="Twig Editor Feature"
+      version="2.2.0.202112171727"
+      provider-name="https://github.com/pulse00">
+
+   <description url="https://github.com/pulse00/Twig-Eclipse-Plugin">
+      Lets Eclipse speak Twig.
+   </description>
+
+   <copyright url="http://www.opensource.org/licenses/mit-license.php">
+      http://www.opensource.org/licenses/mit-license.php
+   </copyright>
+
+   <license url="http://www.opensource.org/licenses/mit-license.php">
+      http://www.opensource.org/licenses/mit-license.php
+   </license>
+
+   <url>
+      <discovery label="Twig" url="http://www.twig-project.org/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.php.core" version="5.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.dltk.core" version="5.4.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.dubture.twig.core"
+         download-size="239"
+         install-size="457"
+         version="2.2.0.202112171727"
+         unpack="false"/>
+
+   <plugin
+         id="com.dubture.twig.ui"
+         download-size="234"
+         install-size="472"
+         version="2.2.0.202112171727"
+         unpack="false"/>
+
+   <plugin
+         id="org.json.simple"
+         download-size="15"
+         install-size="17"
+         version="0.0.1.SNAPSHOT"
+         unpack="false"/>
+
+</feature>
